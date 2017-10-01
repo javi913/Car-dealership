@@ -1,0 +1,227 @@
+.navbar-nav li a:hover {
+    background-color: white !important;
+    text-decoration: none !important;
+    display: block !important;
+    color: black !important;
+}
+
+nav {
+    background-color: #000033;
+    border-bottom-style: groove;
+    border-bottom-width: 5px;
+}
+
+body {
+    background-color: #000033;
+}
+
+video.resize {
+    background-color: grey;
+}
+
+@media (max-width:767px) {
+    img.resize {
+        width: 100%;
+        height: 100%;
+    }
+    video.resize {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.carshome {
+    background-color: #000033;
+}
+
+.carsmini a:hover {
+    background-color: lightgrey !important;
+}
+
+.carsmini:hover {
+    background-color: lightgrey !important;
+}
+
+.carsmini {
+    border-style: groove;
+    background-color: white !important;
+    font-family: 'Encode Sans Expanded', sans-serif;
+
+}
+
+.aboutf {
+    border-bottom-style: double;
+    border-right-style: double;
+    text-align: right;
+}
+
+.aboutpage {
+    background-color: darkgrey;
+}
+
+.aboutpage p,
+h5 {
+    font-family: 'Righteous', cursive;
+}
+
+.aboutborder {
+    border-top-style: ridge;
+}
+
+.careerspage {
+    background-color: grey;
+}
+
+h4 {
+    color: black !important;
+}
+
+.careerspage a {
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+.careerspage li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer {
+    background-color: lightgrey;
+}
+
+.footerclass li {
+    list-style-type: none !important;
+}
+
+.footer li {
+    list-style-type: none !important;
+}
+
+.careerspage li:hover {
+    background-color: green;
+    text-decoration: none;
+    color: white;
+}
+
+.videohome {
+    text-align: center;
+    margin: -20;
+    background-color: #000033;
+}
+
+.forms1 {
+    border-right-style: groove;
+    border-bottom-style: groove;
+    text-align: center;
+    background-color: #000033;
+}
+
+label:hover,
+label:active,
+input:hover+label,
+input:active+label {
+    background: yellow;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+textarea:focus {
+    background-color: yellow;
+}
+
+
+/* CSS for Search in Inventory */
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    /* Add a search icon to input */
+    background-position: 10px 12px;
+    /* Position the search icon */
+    background-repeat: no-repeat;
+    /* Do not repeat the icon image */
+    width: 100%;
+    /* Full-width */
+    font-size: 16px;
+    /* Increase font-size */
+    padding: 12px 20px 12px 40px;
+    /* Add some padding */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    margin-bottom: 12px;
+    /* Add some space below the input */
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    /* Add a border to all links */
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: darkgrey;
+    /* Grey background color */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove default text underline */
+    font-size: 18px;
+    /* Increase the font-size */
+    color: black;
+    /* Add a black text color */
+    display: block;
+    /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+    /* Add a hover effect to all links, except for headers */
+}
+
+/* End of Search */
+
+.about {
+    border-bottom-style: dashed
+}
+
+#cars {
+    text-align: left!important;
+}
+
+
+img.resize1 {
+    width: 384px;
+    height: 216px;
+}
+
+@media (max-width:767px) {
+    img.resize1 {
+        width: 93%;
+        height: 93%;
+    }
+}
+
+.cartext {
+    text-align: center;
+    color: white;
+}
+
+.carpagesbackground {
+    background-color: #191947;
+}
+
+#showcars1 {
+    text-align: center;
+}
+
+#comment {
+    text-align: center !important;
+}
